@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F48CA3F2ACC67AB009617FB /* Tim_s_hobby_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F48CA3E2ACC67AB009617FB /* Tim_s_hobby_appApp.swift */; };
+		3F48CA412ACC67AB009617FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F48CA402ACC67AB009617FB /* ContentView.swift */; };
+		3F48CA432ACC67AD009617FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F48CA422ACC67AD009617FB /* Assets.xcassets */; };
+		3F48CA472ACC67AD009617FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F48CA462ACC67AD009617FB /* Preview Assets.xcassets */; };
+		3F48CA512ACC67AD009617FB /* Tim_s_hobby_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F48CA502ACC67AD009617FB /* Tim_s_hobby_appTests.swift */; };
+		3F48CA5B2ACC67AD009617FB /* Tim_s_hobby_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F48CA5A2ACC67AD009617FB /* Tim_s_hobby_appUITests.swift */; };
+		3F48CA5D2ACC67AD009617FB /* Tim_s_hobby_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F48CA5C2ACC67AD009617FB /* Tim_s_hobby_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F48CA4D2ACC67AD009617FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F48CA332ACC67AB009617FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F48CA3A2ACC67AB009617FB;
+			remoteInfo = "Tim's hobby app";
+		};
+		3F48CA572ACC67AD009617FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F48CA332ACC67AB009617FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F48CA3A2ACC67AB009617FB;
+			remoteInfo = "Tim's hobby app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F48CA3B2ACC67AB009617FB /* Tim's hobby app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tim's hobby app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F48CA3E2ACC67AB009617FB /* Tim_s_hobby_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tim_s_hobby_appApp.swift; sourceTree = "<group>"; };
+		3F48CA402ACC67AB009617FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F48CA422ACC67AD009617FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F48CA442ACC67AD009617FB /* Tim_s_hobby_app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tim_s_hobby_app.entitlements; sourceTree = "<group>"; };
+		3F48CA462ACC67AD009617FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F48CA4C2ACC67AD009617FB /* Tim's hobby appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tim's hobby appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F48CA502ACC67AD009617FB /* Tim_s_hobby_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tim_s_hobby_appTests.swift; sourceTree = "<group>"; };
+		3F48CA562ACC67AD009617FB /* Tim's hobby appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tim's hobby appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F48CA5A2ACC67AD009617FB /* Tim_s_hobby_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tim_s_hobby_appUITests.swift; sourceTree = "<group>"; };
+		3F48CA5C2ACC67AD009617FB /* Tim_s_hobby_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tim_s_hobby_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F48CA382ACC67AB009617FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F48CA492ACC67AD009617FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F48CA532ACC67AD009617FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F48CA322ACC67AB009617FB = {
+			isa = PBXGroup;
+			children = (
+				3F48CA3D2ACC67AB009617FB /* Tim's hobby app */,
+				3F48CA4F2ACC67AD009617FB /* Tim's hobby appTests */,
+				3F48CA592ACC67AD009617FB /* Tim's hobby appUITests */,
+				3F48CA3C2ACC67AB009617FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F48CA3C2ACC67AB009617FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F48CA3B2ACC67AB009617FB /* Tim's hobby app.app */,
+				3F48CA4C2ACC67AD009617FB /* Tim's hobby appTests.xctest */,
+				3F48CA562ACC67AD009617FB /* Tim's hobby appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F48CA3D2ACC67AB009617FB /* Tim's hobby app */ = {
+			isa = PBXGroup;
+			children = (
+				3F48CA3E2ACC67AB009617FB /* Tim_s_hobby_appApp.swift */,
+				3F48CA402ACC67AB009617FB /* ContentView.swift */,
+				3F48CA422ACC67AD009617FB /* Assets.xcassets */,
+				3F48CA442ACC67AD009617FB /* Tim_s_hobby_app.entitlements */,
+				3F48CA452ACC67AD009617FB /* Preview Content */,
+			);
+			path = "Tim's hobby app";
+			sourceTree = "<group>";
+		};
+		3F48CA452ACC67AD009617FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F48CA462ACC67AD009617FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F48CA4F2ACC67AD009617FB /* Tim's hobby appTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F48CA502ACC67AD009617FB /* Tim_s_hobby_appTests.swift */,
+			);
+			path = "Tim's hobby appTests";
+			sourceTree = "<group>";
+		};
+		3F48CA592ACC67AD009617FB /* Tim's hobby appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F48CA5A2ACC67AD009617FB /* Tim_s_hobby_appUITests.swift */,
+				3F48CA5C2ACC67AD009617FB /* Tim_s_hobby_appUITestsLaunchTests.swift */,
+			);
+			path = "Tim's hobby appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F48CA3A2ACC67AB009617FB /* Tim's hobby app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F48CA602ACC67AD009617FB /* Build configuration list for PBXNativeTarget "Tim's hobby app" */;
+			buildPhases = (
+				3F48CA372ACC67AB009617FB /* Sources */,
+				3F48CA382ACC67AB009617FB /* Frameworks */,
+				3F48CA392ACC67AB009617FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tim's hobby app";
+			productName = "Tim's hobby app";
+			productReference = 3F48CA3B2ACC67AB009617FB /* Tim's hobby app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F48CA4B2ACC67AD009617FB /* Tim's hobby appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F48CA632ACC67AD009617FB /* Build configuration list for PBXNativeTarget "Tim's hobby appTests" */;
+			buildPhases = (
+				3F48CA482ACC67AD009617FB /* Sources */,
+				3F48CA492ACC67AD009617FB /* Frameworks */,
+				3F48CA4A2ACC67AD009617FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F48CA4E2ACC67AD009617FB /* PBXTargetDependency */,
+			);
+			name = "Tim's hobby appTests";
+			productName = "Tim's hobby appTests";
+			productReference = 3F48CA4C2ACC67AD009617FB /* Tim's hobby appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F48CA552ACC67AD009617FB /* Tim's hobby appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F48CA662ACC67AD009617FB /* Build configuration list for PBXNativeTarget "Tim's hobby appUITests" */;
+			buildPhases = (
+				3F48CA522ACC67AD009617FB /* Sources */,
+				3F48CA532ACC67AD009617FB /* Frameworks */,
+				3F48CA542ACC67AD009617FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F48CA582ACC67AD009617FB /* PBXTargetDependency */,
+			);
+			name = "Tim's hobby appUITests";
+			productName = "Tim's hobby appUITests";
+			productReference = 3F48CA562ACC67AD009617FB /* Tim's hobby appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F48CA332ACC67AB009617FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3F48CA3A2ACC67AB009617FB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3F48CA4B2ACC67AD009617FB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3F48CA3A2ACC67AB009617FB;
+					};
+					3F48CA552ACC67AD009617FB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3F48CA3A2ACC67AB009617FB;
+					};
+				};
+			};
+			buildConfigurationList = 3F48CA362ACC67AB009617FB /* Build configuration list for PBXProject "Tim's hobby app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F48CA322ACC67AB009617FB;
+			productRefGroup = 3F48CA3C2ACC67AB009617FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F48CA3A2ACC67AB009617FB /* Tim's hobby app */,
+				3F48CA4B2ACC67AD009617FB /* Tim's hobby appTests */,
+				3F48CA552ACC67AD009617FB /* Tim's hobby appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F48CA392ACC67AB009617FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F48CA472ACC67AD009617FB /* Preview Assets.xcassets in Resources */,
+				3F48CA432ACC67AD009617FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F48CA4A2ACC67AD009617FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F48CA542ACC67AD009617FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F48CA372ACC67AB009617FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F48CA412ACC67AB009617FB /* ContentView.swift in Sources */,
+				3F48CA3F2ACC67AB009617FB /* Tim_s_hobby_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F48CA482ACC67AD009617FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F48CA512ACC67AD009617FB /* Tim_s_hobby_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F48CA522ACC67AD009617FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F48CA5D2ACC67AD009617FB /* Tim_s_hobby_appUITestsLaunchTests.swift in Sources */,
+				3F48CA5B2ACC67AD009617FB /* Tim_s_hobby_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F48CA4E2ACC67AD009617FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F48CA3A2ACC67AB009617FB /* Tim's hobby app */;
+			targetProxy = 3F48CA4D2ACC67AD009617FB /* PBXContainerItemProxy */;
+		};
+		3F48CA582ACC67AD009617FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F48CA3A2ACC67AB009617FB /* Tim's hobby app */;
+			targetProxy = 3F48CA572ACC67AD009617FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F48CA5E2ACC67AD009617FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F48CA5F2ACC67AD009617FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3F48CA612ACC67AD009617FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Tim's hobby app/Tim_s_hobby_app.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tim's hobby app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HunLoyola.Tim-s-hobby-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F48CA622ACC67AD009617FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Tim's hobby app/Tim_s_hobby_app.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tim's hobby app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HunLoyola.Tim-s-hobby-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F48CA642ACC67AD009617FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HunLoyola.Tim-s-hobby-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tim's hobby app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tim's hobby app";
+			};
+			name = Debug;
+		};
+		3F48CA652ACC67AD009617FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HunLoyola.Tim-s-hobby-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tim's hobby app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tim's hobby app";
+			};
+			name = Release;
+		};
+		3F48CA672ACC67AD009617FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HunLoyola.Tim-s-hobby-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tim's hobby app";
+			};
+			name = Debug;
+		};
+		3F48CA682ACC67AD009617FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HunLoyola.Tim-s-hobby-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tim's hobby app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F48CA362ACC67AB009617FB /* Build configuration list for PBXProject "Tim's hobby app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F48CA5E2ACC67AD009617FB /* Debug */,
+				3F48CA5F2ACC67AD009617FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F48CA602ACC67AD009617FB /* Build configuration list for PBXNativeTarget "Tim's hobby app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F48CA612ACC67AD009617FB /* Debug */,
+				3F48CA622ACC67AD009617FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F48CA632ACC67AD009617FB /* Build configuration list for PBXNativeTarget "Tim's hobby appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F48CA642ACC67AD009617FB /* Debug */,
+				3F48CA652ACC67AD009617FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F48CA662ACC67AD009617FB /* Build configuration list for PBXNativeTarget "Tim's hobby appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F48CA672ACC67AD009617FB /* Debug */,
+				3F48CA682ACC67AD009617FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F48CA332ACC67AB009617FB /* Project object */;
+}
